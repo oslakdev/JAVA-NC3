@@ -10,6 +10,9 @@ import java.util.Scanner;
 public class Task5 {
 
     public static void main(String[] args) {
+        System.out.println("=============================================");
+        System.out.println("Task5:\nCheck whose largest number in 3 inputs and output the largest number. \nIf all numbers are equall print all numbers are equal");
+        System.out.println("=============================================\n");
 
         Scanner scann = new Scanner(System.in);
 
@@ -32,22 +35,22 @@ public class Task5 {
         scann.close();
 
         if (num1 > num2 && num1 > num3) {
-            System.out.println(num1 +" is the greatest number");
+            System.out.println(num1 +" is the greatest number.");
         } else if (num2 > num1 && num2 > num3) {
-            System.out.println(num2 +" is the greatest number");
+            System.out.println(num2 +" is the greatest number.");
         } else if (num3 > num1 && num3 > num2) {
-            System.out.println(num3 +" is the greatest number");
+            System.out.println(num3 +" is the greatest number.");
         }else if (num1 == num2 && num1 > num3){
-            System.out.println(num1 +" and "+ num2 +" are equal and both greatest number");
+            System.out.println(num1 +" and "+ num2 +" are equal and both the greatest number.");
 
         }else if (num2 == num3 && num2 > num1){
-            System.out.println(num2 +" and "+ num3 +" are equal and both greatest number");
+            System.out.println(num2 +" and "+ num3 +" are equal and both the greatest number.");
 
         }else if (num3 == num1 && num3 > num2){
-            System.out.println(num3 +" and "+ num1 +" are equal and both greatest number");
+            System.out.println(num3 +" and "+ num1 +" are equal and both the greatest number.");
 
         }else if(num1 == num2 && num1 == num3 ){
-            System.out.println(num1 + " " + num2 +"" + "and " + num3 + " are all equal");
+            System.out.println(num1 + ", " + num2 + " and " + num3 + " are all equal.");
         }
     }
 }

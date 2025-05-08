@@ -29,6 +29,8 @@ public class Task5 {
         int number3 = scann.nextInt();
         num3 = number3;
 
+        scann.close();
+
         if (num1 > num2 && num1 > num3) {
             System.out.println(num1 +" is the greatest");
         } else if (num2 > num1 && num2 > num3) {

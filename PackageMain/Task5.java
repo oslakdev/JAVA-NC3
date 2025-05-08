@@ -1,10 +1,3 @@
- /*Task5
-  * Check whose largest number in 3 inputs.
-    Create a program that takes in three input number from user
-    and output the largest number. If all numbers are equall print "all numbers are equal".
-  */
-
-
 import java.util.Scanner;
 
 public class Task5 {

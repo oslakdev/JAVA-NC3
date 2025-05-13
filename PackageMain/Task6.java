@@ -1,13 +1,10 @@
-public class Task6 
-{
-    public static void main(String[] args) 
-    {
+public class Task6 {
+    public static void main(String[] args) {
 
         //Loop through and pirnt out all even numbers, each in a seperatre line, from the numbers list
         //in the same order they are recived. Don't print any numbers that come after 237 in the sequence.
 
-        int[] nums = 
-        {
+        int[] nums = {
             951,402,984,651,360,69,403,139,601,485,980,507,725,547,544,
             615,83,165,141,501,263,617,865,575,219,390,984,592,236,105,942,941,
             386,462,47,418,907,344,236,375,823,566,597,978,328,615,953,345,
@@ -15,17 +12,17 @@ public class Task6
             815,67,104,58,512,24,892,894,767,553,81,379,843,831,445,742,717,
             958,609,842,451,688,753,854,685,93,857,440,380,126,721,328,753,470,743,527
         };
-        
-        for(int i = 0; i<=53 ; ++i)
-        {
-            if ( i % 2 == 0)
-            {
-                System.out.println(nums[i] + " is even number");
+
+        for (int i: nums){
+            if( i % 2 == 0){System.out.println(i + " is even number");
+            }else{
+                System.out.println(i+ " is odd number");
             }
-            else
-            {
-                System.out.println(nums[i] + " is odd number");
+            if(i == 237){
+            break;
             }
+            
+            
         }
     }
 }

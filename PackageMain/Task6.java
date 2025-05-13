@@ -14,7 +14,8 @@ public class Task6 {
         };
 
         for (int i: nums){
-            if( i % 2 == 0){System.out.println(i + " is even number");
+            if( i % 2 == 0){
+                System.out.println(i + " is even number");
             }else{
                 System.out.println(i+ " is odd number");
             }

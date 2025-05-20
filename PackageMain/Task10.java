@@ -19,8 +19,7 @@ public class Task10 {
     }
 }
 class Student{
-
-    public String[] length;
+    
     private String firstName;
     private String lastName;
 

@@ -8,15 +8,10 @@ public class Task8 {
     
     public static void main(String[] args) {
         //
-        
+
     }
     
-    /**
-     * Method that takes variable integer arguments and calculates:
-     * 1. The sum of all parameters
-     * 2. For each parameter, the cumulative sum up to that number
-     * @param numbers Variable number of integer arguments
-     */
+  
     public static void processNumbers(int... numbers) {
         int totalSum = 0;
         System.out.println("Processing numbers: " + arrayToString(numbers));
@@ -33,21 +28,13 @@ public class Task8 {
         System.out.println(); // Add blank line for separation
     }
     
-    /**
-     * Helper method to calculate the cumulative sum 1+2+3+...+n
-     * @param n The number to calculate cumulative sum up to
-     * @return The cumulative sum
-     */
+   
     private static int calculateCumulativeSum(int n) {
         // Using the formula for sum of first n natural numbers: n(n+1)/2
         return n * (n + 1) / 2;
     }
     
-    /**
-     * Helper method to convert an int array to a string representation
-     * @param array The array to convert
-     * @return String representation of the array
-     */
+  
     private static String arrayToString(int[] array) {
         StringBuilder sb = new StringBuilder();
         sb.append("[");

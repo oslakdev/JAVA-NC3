@@ -12,39 +12,39 @@ public class Task8 {
     }
     
   
-    public static void processNumbers(int... numbers) {
-        int totalSum = 0;
-        System.out.println("Processing numbers: " + arrayToString(numbers));
+    // public static void processNumbers(int... numbers) {
+    //     int totalSum = 0;
+    //     System.out.println("Processing numbers: " + arrayToString(numbers));
         
-        // Calculate and display cumulative sum for each number
-        for (int num : numbers) {
-            int cumulativeSum = calculateCumulativeSum(num);
-            System.out.printf("Cumulative sum up to %d: %d%n", num, cumulativeSum);
-            totalSum += num;
-        }
+    //     // Calculate and display cumulative sum for each number
+    //     for (int num : numbers) {
+    //         int cumulativeSum = calculateCumulativeSum(num);
+    //         System.out.printf("Cumulative sum up to %d: %d%n", num, cumulativeSum);
+    //         totalSum += num;
+    //     }
         
-        // Display the sum of all parameters
-        System.out.printf("Sum of all parameters: %d%n", totalSum);
-        System.out.println(); // Add blank line for separation
-    }
+    //     // Display the sum of all parameters
+    //     System.out.printf("Sum of all parameters: %d%n", totalSum);
+    //     System.out.println(); // Add blank line for separation
+    // }
     
    
-    private static int calculateCumulativeSum(int n) {
-        // Using the formula for sum of first n natural numbers: n(n+1)/2
-        return n * (n + 1) / 2;
-    }
+    // private static int calculateCumulativeSum(int n) {
+    //     // Using the formula for sum of first n natural numbers: n(n+1)/2
+    //     return n * (n + 1) / 2;
+    // }
     
   
-    private static String arrayToString(int[] array) {
-        StringBuilder sb = new StringBuilder();
-        sb.append("[");
-        for (int i = 0; i < array.length; i++) {
-            sb.append(array[i]);
-            if (i < array.length - 1) {
+    // private static String arrayToString(int[] array) {
+    //     StringBuilder sb = new StringBuilder();
+    //     sb.append("[");
+    //     for (int i = 0; i < array.length; i++) {
+    //         sb.append(array[i]);
+    //         if (i < array.length - 1) {
                 sb.append(", ");
             }
-        }
-        sb.append("]");
-        return sb.toString();
-    }
-}
+//         }
+//         sb.append("]");
+//         return sb.toString();
+//     }
+// }

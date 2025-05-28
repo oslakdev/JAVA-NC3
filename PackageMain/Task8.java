@@ -28,7 +28,7 @@ public class Task8 {
          
     
     public static void main(String[] args) {
-        // Example usage
+        
         int result = sumCumulativeSums(3, 5, 6);
         System.out.println("The total cumulative sum of all is: " + result);
     }

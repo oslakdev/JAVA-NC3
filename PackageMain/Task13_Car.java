@@ -38,7 +38,7 @@ public class Task13_Car extends Vehicle{
     //instantiate car
     Task13_Car car = new Task13_Car("Toyota", "Camry", 2022, 4);
 
-    car.displayDetails();
+    car.displayDetails(); //call car method.
 
     }
 }

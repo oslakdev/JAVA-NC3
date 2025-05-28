@@ -1,6 +1,6 @@
 public interface Animal {
 
-    boolean feed(boolean timeToEat);
+    public boolean feed(boolean timeToEat);
     void groom();
     void pet();
 

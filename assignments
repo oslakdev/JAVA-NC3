@@ -1,0 +1,58 @@
+
+-Score to Grade F - AAssignment
+            Write a program that takes in the score of a student in a test and outputs their grade based on the following criteria:
+            
+            A score of 90 or above gets an A grade
+            A score between 80 and 89 gets a B grade
+            A score between 70 and 79 gets a C grade
+            A score between 60 and 69 gets a D grade
+            A score below 60 gets an F grade
+
+-Completed: Score to Grade F - A
+            Number to month(1-12) and print number of days of that month
+            Write a program that prompts the user to enter a month number (1 for January, 2 for February, etc.) and outputs the number of days in that month. Assume that                    February has 28 days.
+          
+            In this program, we use a switch-case statement to handle different month numbers entered by the user. The switch statement checks the value of the variable month,              and executes the corresponding case block. If none of the cases match, the default block is executed
+
+-Number to month(1-12) and print number of days of that monthAssignment
+
+-Completed: Number to month(1-12) and print number of days of that month
+
+-Number to day of the weekAssignment
+
+-Not completed: Number to day of the week
+
+-Odd or even? positive or negative? or zero?Assignment
+
+-Not completed: Odd or even? positive or negative? or zero?
+
+-Sum of All integer InputsAssignment
+
+-Not completed: Sum of All integer Inputs
+
+-Integer input from the user and uses a for loop to generate following patternAssignment
+
+-Not completed: Integer input from the user and uses a for loop to generate following pattern
+
+-Multiplication Table 10x10Assignment
+
+-Not completed: Multiplication Table 10x10
+
+-String MethodsAssignment
+
+-Not completed: String Methods
+
+-Check vowels and consonantsAssignment
+
+-Not completed: Check vowels and consonants
+
+-Count number of words in an inputAssignment
+
+-Not completed: Count number of words in an input
+
+-StringBuilder - 10 charactersAssignment
+
+-Not completed: StringBuilder - 10 characters
+
+-Sum and average of input array numbersAssignment
+
